@@ -1,0 +1,113 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.section-title {
+  text-align: center;
+  margin-bottom: 60px
+}
+.section-title h2{
+    margin: 0 0 5px
+}
+.section-title span {
+  background: #6aaf08;
+  width: 40px;
+  height: 4px;
+  display: inline-block;
+  margin: 0px 2px;
+  border-radius: 10px;
+}
+.section-title span.black-border {
+  background: #333;
+  width: 22px;
+  margin: 0px;
+}
+.section-padding {
+  padding: 80px 0px;
+}
+.single-testimonial-item {
+  border: 1px solid #e1f7c3;
+  display: inline-block;
+  padding: 19px;
+  position: relative;
+  padding-left: 110px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.single-testimonial-item:before {
+content: "";
+position: absolute;
+height: 110px;
+width: 1px;
+top: 14%;
+left: 85px;
+background: #d1d1d1;
+line-height: 30px;
+}
+.single-testimonial-item:after {
+    font-family: fontAwesome;
+    content: "\f10d";
+    color: #6aaf08;
+    position: absolute;
+    top: 40%;
+    font-size: 20px;
+    left: 33px;
+}
+.single-testimonial-item h3{
+    margin: 0px
+}
+.single-testimonial-item span{
+    color: #666866;
+}
+.single-testimonial-item p {
+  font-style: italic;
+  color: #666866;
+  font-size: 15px;
+  padding-bottom: 5px;
+  margin: 0 0 7px;
+}
+.owl-controls .owl-dots{
+    text-align: center;
+    margin-top: 50px
+}
+.owl-controls .owl-dots div {
+  display: inline-block;
+  width: 22px;
+  height: 4px;
+  background: #6aaf08;
+  margin : 0 5px;
+  border-radius: 10px
+}
+.owl-controls .owl-dots div.active {
+  background: #333;
+  width: 30px;
+}
